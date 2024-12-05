@@ -169,4 +169,22 @@ footer{
     .hero-wrapper{
         padding-left: 39px;
     }
+    .keyboard-img-wrapper{
+        justify-content: center;
+    }
+    .glass-and-keyboard{
+        width: 445px;
+    }
+    .keyboard-and-phone{
+        width: 214px;
+        border-radius: 16px;
+    }
+    .description-wrapper{
+        width: 90%;
+    }
+    .title-and-desc{
+        display: flex;
+        padding-left: 24px;
+        gap: 24px;
+    }
 }
