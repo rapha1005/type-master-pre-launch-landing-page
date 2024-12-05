@@ -46,7 +46,7 @@ h1{
     font-weight: 900;
 }
 
-main p{
+p{
     font-family: "Barlow", sans-serif;
     color: #7B8BAD;
     font-weight: 500;
@@ -80,9 +80,93 @@ main p{
     text-align: right;
 }
 
+
+
 .hero-img-wrapper img{
     width: 372px;
     height: auto;
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.description-wrapper{
+    text-align: center;
+    margin-bottom: 112px;
+}
+
+.keyboard-img-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 24px;
+    gap: 24px;
+    margin-bottom: 75px;
+}
+
+.glass-and-keyboard{
+    border-radius: 16px;
+    width: 220px;
+    height: auto;
+}
+
+.keyboard-and-phone{
+    background-color: red;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 129px;
+    height: auto;
+}
+
+h2{
+    font-family: "Barlow", sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.svg{
+    background-color: #F16718;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    margin-bottom: 48px;
+}
+
+.grid-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    margin-bottom: 96px;
+}
+
+
+.grid-item{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.grid-item h2{
+    font-size: 24px;
+}
+
+footer{
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px){
+    .hero-flex-wrapper{
+        display: flex;
+    }
+    .hero-wrapper{
+        padding-left: 39px;
+    }
 }
